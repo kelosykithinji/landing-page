@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.header{
+    
+    background-color: #1f2937;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+.logo{
+    color: #f9faf8;
+    font-size: 24px;
+}
+ul{
+    display: flex;
+    list-style-type: none;
+    gap: 10px;
+    font-size:18px;
+    
+}
+a{
+    text-decoration: none;
+    color: #E5E7EB;
+}
+.left-links{
+    display: flex;
+    justify-content: space-between;
+
+}
+h1{
+    padding-top: 50px;
+    color: hsl(90, 17%, 98%);
+    font-size: 48px;
+    font-weight: extra-bold;
+}
+p{
+    color:  #E5E7EB;
+    margin-bottom: 5px;
+}
