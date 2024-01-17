@@ -38,3 +38,29 @@ p{
     color:  #E5E7EB;
     margin-bottom: 5px;
 }
+button{
+    background-color: #3882f6;
+    padding: 10px 20px;
+    border-radius: 5px;
+    color: white;
+    border: none;
+    margin-bottom: 10px;
+}
+img{
+   
+    border-radius: 10px;
+    margin-left: 100px;
+    margin-top: 50px;
+    max-width: 500px;
+    max-height: 200px;
+    
+}
+.content{
+    display: flex;
+    
+}
+.righ-link{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
