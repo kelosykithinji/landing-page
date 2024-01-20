@@ -29,7 +29,7 @@ a{
 
 }
 h1{
-    padding-top: 50px;
+    padding-top: 40px;
     color: hsl(90, 17%, 98%);
     font-size: 48px;
     font-weight: extra-bold;
@@ -48,11 +48,12 @@ button{
 }
 img{
    
-    border-radius: 10px;
+   
     margin-left: 100px;
     margin-top: 50px;
-    max-width: 500px;
+    /*max-width: 500px;*/
     max-height: 200px;
+    margin-bottom: 20px;
     
 }
 .content{
@@ -72,25 +73,42 @@ h2{
 }
 .container{
     display: flex;
-    gap: 40px;
-    height: 100px;
-    justify-content: center;
-    margin-top:20px;
+    /*height: 100px;*/
+    margin-top:10px;
+    /*flex-wrap: wrap;*/
+    justify-content: space-evenly;
+    padding-bottom: 50px;
+   
     
 
 }
 .one{
     border: 2px solid #3882f6;
-    padding: 50px;
+    /*padding: 50px;*/
     display: flex;
     border-radius: 10%;
+    height: 200px;
+    width: 200px;
 }
-.contents{
+figcaption{
+    text-align: center;
+    width: 200px;
+    padding-left: 100px;
+}
+
+/*.contents{
     color: #1f2937;
     display: flex;
     gap: 20px;
     justify-content: center;
     align-items: center;
+}*/
+.soni{
+    display: flex;
+    /*justify-content: center;*/
+    border-radius: 40px;
+    height: 200px;
+    width: 200px;
 }
 .first{
     color: #1f2937;
@@ -101,9 +119,22 @@ h2{
     color: #1f2937; 
     text-align: center;
     font-size: 36px;
-    background-color: #e5e7eb;
     padding-top: 50px;
-    padding-bottom: 70px;
+    padding-bottom: 20px;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+.third{
+    background-color: #e5e7eb;
+    display: column;
+}
+.quote{
+    display: flex;
+    justify-content:flex-end;
+    align-items: flex-end;
+    padding-bottom: 50px;
+    padding-right: 150px;
+    
 }
 .six{
     color: hsl(90, 17%, 98%);
